@@ -1,7 +1,7 @@
 
 # Exemplo Dashboard
 
-Exemplo de modelod e Dashboard.
+Exemplo de modelo de um Dashboard.
 
 
 
