@@ -4,7 +4,7 @@ import Home from "@pages/home";
 const RoutesElements = () => {
   return (
     <Routes>
-      <Route path="/">
+      <Route path="/dashboard-example">
         <Route index element={<Home/>} />
       </Route>
       <Route path="/leaderboard">
