@@ -2,8 +2,7 @@ import { useState } from "react";
 import SideMenu from "./sideMenu";
 import TopBar from "./topBar";
 import RoutesElements from "@src/routes";
-import { Box, Container } from "@mui/material";
-import { DrawerHeader, Main } from "./styles";
+import { Main } from "./styles";
 
 const MainLayout = () => {
   const [open, setOpen] = useState(true);

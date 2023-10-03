@@ -1,5 +1,4 @@
 import { Dispatch, FC, SetStateAction, useState } from "react";
-import { useTheme } from "@mui/material/styles";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import ListItemText from "@mui/material/ListItemText";
@@ -28,16 +27,11 @@ interface ISideMenuProps {
   setOpen: Dispatch<SetStateAction<boolean>>;
 }
 
-const SideMenu: FC<ISideMenuProps> = ({ setOpen, open }) => {
-  const theme = useTheme();
+const SideMenu: FC<ISideMenuProps> = ({ open }) => {
   const drawerWidth = 345;
   const [currentMenu, setCurrentMenu] = useState<string | "Dashboard">(
     "Dashboard"
   );
-
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
 
   return (
     <Drawer
