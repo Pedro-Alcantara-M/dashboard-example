@@ -1,6 +1,7 @@
 {
   "name": "dashboard-test",
   "private": true,
+  "homepage": "https://pedro-alcantara-m.github.io/dashboard-example/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
